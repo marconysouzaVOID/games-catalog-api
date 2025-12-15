@@ -358,12 +358,9 @@ mvn test
 
 - [ ] Adicionar filtros avançados (por desenvolvedora, ano, preço)
 - [ ] Implementar autenticação e autorização
+- [ ] Implementar persistência dos processos da API para auditoria
 - [ ] Implementar busca full-text
 - [ ] Implementar testes de carga
-- [ ] Adicionar métricas e monitoramento mais aprofundado(Grafana)
-- [ ] Migrar para banco de dados PostgreSQL em produção
+- [ ] Adicionar métricas e monitoramento mais aprofundado (Grafana e Splunk)
+- [ ] Migrar para banco de dados PostgreSQL
 - [ ] Implementar CI/CD
-
-```
-
-```
