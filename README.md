@@ -210,7 +210,7 @@ A aplicação estará disponível em: `http://localhost:8080`
 
 Durante a execução, o console H2 está disponível em:
 
-- URL: `  `
+- URL: `http://localhost:8080/h2-console`
 - JDBC URL: `jdbc:h2:mem:gamesdb`
 - Username: `sa`
 - Password: (vazio)
@@ -311,7 +311,7 @@ O cache é automaticamente invalidado quando games são criados, atualizados ou 
 ```bash
 # Executar todos os testes
 mvn test
-
+```
 
 ### Estrutura de Testes
 
@@ -363,4 +363,7 @@ mvn test
 - [ ] Adicionar métricas e monitoramento mais aprofundado(Grafana)
 - [ ] Migrar para banco de dados PostgreSQL em produção
 - [ ] Implementar CI/CD
+
+```
+
 ```
